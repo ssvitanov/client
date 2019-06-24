@@ -4,7 +4,7 @@ import { Line } from 'react-chartjs-2';
 import moment from 'moment';
 import _ from 'lodash';
 
-const API = 'http://127.0.0.1:4000/sensor_data/';
+const API = 'http://ssvitanovserver.herokuapp.com/sensor_data/';
 const QUERY_LATEST = 'latest';
 const QUERY_LAST_HOUR = 'lastMinute';
 
