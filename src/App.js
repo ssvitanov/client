@@ -12,7 +12,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      createdDate: "",
+      createdDate: "0",
       pm25: 0,
       pm10: 0,
       temperature: 0,
