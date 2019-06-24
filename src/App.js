@@ -95,8 +95,8 @@ class App extends React.Component {
 
     try {
       setInterval(async () => {
-        // const res = await fetch(API + QUERY_LATEST);
-        // const data = await res.json();
+        const res = await fetch(API + QUERY_LATEST);
+        const data = await res.json();
 
       fetch(API + QUERY_LAST_HOUR)
         .then(response => response.json())
